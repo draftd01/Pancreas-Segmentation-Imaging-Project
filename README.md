@@ -25,4 +25,9 @@ The repo contains 2 ipynb: Daniel's project code that contains the code to train
 Daniel's code contains both of the evaluations
 
 # How to run 
-All the code was run through colab. 
+All the code was run through colab. It would not possible directly from this repo without downloading the necessary zips from the referenced github repos and adjusting the paths in the notebook. However, results from the cells that we ran can be viewed with running any code by opening the ipynb file. 
+
+## Example from top few lines of ipynb file
+![image](https://github.com/draftd01/dl_final_project/assets/60448623/e8a75dba-45eb-4037-9e1e-5b7f38f86be1)
+
+
