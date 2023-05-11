@@ -21,5 +21,8 @@ https://github.com/JunMa11/SegLoss
 https://github.com/pytorch/vision/tree/main/references/detection
 
 # Code decription
-The repo contains 2 ipynb: Daniel's project code that contains the ocde to train the not pretrained model while Dania's project code contains the code to train the pretrained model on our dataset. 
+The repo contains 2 ipynb: Daniel's project code that contains the code to train the not pretrained model while Dania's project code contains the code to train the pretrained model on our dataset. 
 Daniel's code contains both of the evaluations
+
+# How to run 
+All the code was run through colab. 
