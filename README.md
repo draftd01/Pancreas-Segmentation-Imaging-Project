@@ -26,6 +26,7 @@ Daniel's code contains both of the evaluations.
 The code table of contents were split into two main parta: 
 1. Data loading, extraction, and preprocessing section
 2. Image dataset creating and loading, as well as model training and evaluation
+
 &emsp; One of the imported github python files contained a deprecated module that had to be commented out for successful running
 
 # How to run 
