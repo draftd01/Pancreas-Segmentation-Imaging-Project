@@ -18,6 +18,10 @@ Unzip pickle files twice since they were also tar files. The pickle files were  
 
 Each patient scan had a different depth, as shown in the graph of the previous slide. In order to adjust we initially considered concatenating the depths of every single image and inputting each layer one by one. This turned out to be computationally too expensive so we had to reconsider a different method. We then changed the scans into JPEGS to input into the data loader. Then these jpegs were input into the model one by one after they were split into test and train. There was another error where one image was put into the train of the ground truth and the training set of the regular scan. We had to debug and run code to find out which file it was a solve the issue.
 
+Running the code on Colab also seemed to be an issue as the GPU kept running out. Additioanl GPU was needed to be pruchased for the code to run. Using this purchased GPU the pretrained model still took 4+ hours to run 10 epochs.
+
+Lastly in our evaltuation step, the documentation provided for the model, Coco, was not running. The code was not compiling and we attempted to adjust the code but it was still not working. We eventually created our own evaulation model to calculate the metrics
+
 
  
 ## Approach/Technique
