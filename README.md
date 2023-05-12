@@ -18,9 +18,20 @@ Unzip pickle files twice since they were also tar files. The pickle files were  
 
 Each patient scan had a different depth, as shown in the graph of the previous slide. In order to adjust we initially considered concatenating the depths of every single image and inputting each layer one by one. This turned out to be computationally too expensive so we had to reconsider a different method. We then changed the scans into JPEGS to input into the data loader. Then these jpegs were input into the model one by one after they were split into test and train. There was another error where one image was put into the train of the ground truth and the training set of the regular scan. We had to debug and run code to find out which file it was a solve the issue.
 
+
  
 ## Approach/Technique
-Different models will be used. The first model will be a not pretrained model. The second will be a pretrained version of the model
+The Mask R-CNN model is a powerful neural network architecture that combines the benefits of the Faster R-CNN object detection model with the ability to generate pixel-level segmentation masks. This model is based on a ResNet-50-Feature Pyramid Network backbone, a convolutional neural network architecture that has proven great performance in a variety of computer vision tasks.
+
+Mask R-CNN extends the Faster R-CNN model by adding a branch for predicting segmentation masks on each Region of Interest (RoI) in parallel with the existing branch for classification and bounding box regression.
+
+The mask branch predicts a binary mask for each RoI, indicating which pixels within the RoI belong to the object of interest. This allows the model to not only detect objects but also to generate precise segmentation masks that separate the object from its background.
+
+Despite the added complexity of the mask branch, Mask R-CNN only adds a small computational overhead, which enables a fast system and rapid experimentation.
+
+The Mask R-CNN model has shown impressive performance in a variety of computer vision tasks, including instance segmentation, object detection, and human pose estimation. Its ability to generate precise segmentation masks makes it particularly useful in medical image analysis and other applications where accurate segmentation is crucial.
+
+The first model will be a not pretrained model and rhe second will be a pretrained version of the model
 Compare model metrics of a pre-trained and not pre-trained Mask R-CNN model with a ResNet-50-FPN backbone
 ## Implementation Details
 We will be using google colab’s GPU to train the models as this would be faster than training them the our devices’ CPUs
