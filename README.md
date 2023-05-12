@@ -32,6 +32,8 @@ All the code was run through colab. It would not possible directly from this rep
 
 # Results
 Our final model metric results can be viewed in the last few cells of the daniel_project_code.ipynb, which include average accuracy, false negative rate, recall, and precision across the defined test set.
+
 ![image](https://github.com/draftd01/dl_final_project/assets/60448623/bc488500-b95a-4a57-9c89-2603fba05f29)
+
 ![image](https://github.com/draftd01/dl_final_project/assets/60448623/3ea1c83c-5d09-454f-a689-d2861d01edac)
 
