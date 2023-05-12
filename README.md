@@ -22,7 +22,11 @@ https://github.com/pytorch/vision/tree/main/references/detection
 
 # Code decription
 The repo contains 2 ipynb: Daniel's project code that contains the code to train the not pretrained model while Dania's project code contains the code to train the pretrained model on our dataset. 
-Daniel's code contains both of the evaluations
+Daniel's code contains both of the evaluations.
+The code table of contents were split into two main parta: 
+1. Data loading, extraction, and preprocessing section
+2. Image dataset creating and loading, as well as model training and evaluation
+\t One of the imported github python files contained a deprecated module that had to be commented out for successful running
 
 # How to run 
 All the code was run through colab. It would not possible directly from this repo without downloading the necessary zips from the referenced github repos and adjusting the paths in the notebook. However, results from the cells that we ran can be viewed with running any code by opening the ipynb file. 
