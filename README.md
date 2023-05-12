@@ -46,7 +46,7 @@ https://github.com/pytorch/vision/tree/main/references/detection
 # Code decription
 The repo contains 2 ipynb: Daniel's project code that contains the code to train the not pretrained model while Dania's project code contains the code to train the pretrained model on our dataset. 
 Daniel's code contains both of the evaluations.
-The code table of contents were split into two main parta: 
+The code table of contents were split into two main parts: 
 1. Data loading, extraction, and preprocessing section
 2. Image dataset creating and loading, as well as model training and evaluation
 
