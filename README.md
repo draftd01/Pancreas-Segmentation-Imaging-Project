@@ -1,5 +1,5 @@
 # dl_final_project
-DL Final Project (Medical Image Segmentation)
+Deep Learning Final Project (Medical Image Segmentation)
 
 # Project Description
 ## Project Title
